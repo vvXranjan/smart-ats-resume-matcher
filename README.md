@@ -1,3 +1,4 @@
+
 # Smart ATS — Resume ↔ Job Description Matcher
 
 Smart ATS is an **explainable AI-powered Applicant Tracking System (ATS)** that evaluates how well a resume matches a given job description using **semantic similarity + keyword-based scoring**.  
@@ -138,3 +139,5 @@ Public cloud deployment
 Vaibhav Vikas Ranjan
 B.Tech — Data Science & Artificial Intelligence
 📧 Contact details intentionally omitted for privacy
+
+---
