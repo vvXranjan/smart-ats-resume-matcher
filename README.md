@@ -84,15 +84,11 @@ Semantic Mode: 0.7 × Semantic Score + 0.3 × Keyword Score
 Strict ATS Mode: 0.2 × Semantic Score + 0.8 × Keyword Score
 
 ## 🛠️ Tech Stack
-Backend: FastAPI
-
-Frontend: Streamlit
-
-NLP: SentenceTransformers (all-MiniLM-L6-v2)
-
-PDF Parsing: PyMuPDF
-
-Language: Python
+ - Backend: FastAPI
+ - Frontend: Streamlit
+ - NLP: SentenceTransformers (all-MiniLM-L6-v2)
+ - PDF Parsing: PyMuPDF
+ - Language: Python
 
 ▶️ How to Run Locally
 1️⃣ Clone the repository
@@ -118,20 +114,15 @@ streamlit run ui/app.py
 UI runs at: http://localhost:8501
 
 ## ⚠️ Limitations
-Semantic similarity may slightly over-reward keyword-dense resumes.
-
-PDF text extraction quality depends on document formatting.
-
-Keyword-based scoring is heuristic (not rule-engine-based ATS).
+ - Semantic similarity may slightly over-reward keyword-dense resumes.
+ - PDF text extraction quality depends on document formatting.
+ - Keyword-based scoring is heuristic (not rule-engine-based ATS).
 
 ## 🔮 Future Improvements
-Resume section-wise scoring (Skills / Experience / Projects)
-
-Export results as a PDF report
-
-JD clustering & role-level benchmarking
-
-Resume rewriting suggestions powered by LLMs
+ - Resume section-wise scoring (Skills / Experience / Projects)
+ - Export results as a PDF report
+ - JD clustering & role-level benchmarking
+ - Resume rewriting suggestions powered by LLMs
 
 👤 Author
 Vaibhav Vikas Ranjan B.Tech — Data Science & Artificial Intelligence
