@@ -57,21 +57,8 @@ It supports **two scoring modes** to simulate real-world ATS behavior.
 ---
 
 ## 🏗️ Architecture
+![Score Breakdown](screenshots/ats_architecture.png)
 
-```
-Streamlit UI
-     |
-     | (HTTP Requests)
-     v
-FastAPI Backend
-     |
-     |-- Resume Parsing (PDF/Text)
-     |-- Semantic Embeddings (SentenceTransformers)
-     |-- Keyword Analysis
-     |-- Scoring Engine
-     |-- Explainability Engine
----
-```
 ## 🧪 Scoring Logic
 Semantic Score: Computed using cosine similarity between resume and job description embeddings.
 
