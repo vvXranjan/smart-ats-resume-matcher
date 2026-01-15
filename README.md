@@ -60,7 +60,6 @@ It supports **two scoring modes** to simulate real-world ATS behavior.
 
 
 
-```text
 Streamlit UI
      |
      | (HTTP Requests)
@@ -72,7 +71,7 @@ FastAPI Backend
      |-- Keyword Analysis
      |-- Scoring Engine
      |-- Explainability Engine
-
+---
 
 🧪 Scoring Logic
 Semantic Score: Computed using cosine similarity between resume and job description embeddings.
