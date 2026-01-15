@@ -73,7 +73,7 @@ FastAPI Backend
      |-- Explainability Engine
 ---
 
-🧪 Scoring Logic
+## 🧪 Scoring Logic
 Semantic Score: Computed using cosine similarity between resume and job description embeddings.
 
 Keyword Score: Based on overlap between resume keywords and JD keywords (stopwords and generic terms filtered out).
@@ -84,7 +84,7 @@ Semantic Mode: 0.7 × Semantic Score + 0.3 × Keyword Score
 
 Strict ATS Mode: 0.2 × Semantic Score + 0.8 × Keyword Score
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Backend: FastAPI
 
 Frontend: Streamlit
@@ -118,14 +118,14 @@ source backend/venv/bin/activate
 streamlit run ui/app.py
 UI runs at: http://localhost:8501
 
-⚠️ Limitations
+## ⚠️ Limitations
 Semantic similarity may slightly over-reward keyword-dense resumes.
 
 PDF text extraction quality depends on document formatting.
 
 Keyword-based scoring is heuristic (not rule-engine-based ATS).
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 Resume section-wise scoring (Skills / Experience / Projects)
 
 Export results as a PDF report
